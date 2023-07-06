@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "noImplicitReturns": true,
+    "outDir": "lib",
+    "resolveJsonModule": true,
+    "sourceMap": true
+  },
+  "include": ["src"]
+}
